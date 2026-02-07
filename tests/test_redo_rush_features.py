@@ -15,10 +15,7 @@ import requests
 import os
 import time
 
-BASE_URL = os.environ.get('REACT_APP_BACKEND_URL', '').rstrip('/')
 
-class TestRedoRushFeatures:
-    """Test Re-Do Orders and RUSH Queue Sorting Features"""
     
     @pytest.fixture(autouse=True)
     def setup(self):
