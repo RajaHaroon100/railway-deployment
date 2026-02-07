@@ -17,8 +17,7 @@ ADMIN_EMAIL = "digitalebookdepot@gmail.com"
 ADMIN_PASSWORD = "Admin123!"
 
 
-class TestStockSteeringWheelsAPI:
-    """Test Stock Steering Wheels API endpoints"""
+
     
     @pytest.fixture(autouse=True)
     def setup(self):
